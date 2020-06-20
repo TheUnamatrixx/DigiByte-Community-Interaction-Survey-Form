@@ -29,6 +29,7 @@
   </label>
   <p>Which option best describes your current role?</p>
   <select id="dropdown">
+    <option disabled selected value>Select an option</option>
     <option value="developer">Developer</option>
     <option value="marketeer">Marketeer</option>
     <option value="outreach">Outreach</option>
@@ -44,6 +45,7 @@
 
   <p>What is your favorite feature of DigiByte?</p>
   <select id="dropdown">
+    <option disabled selected value>Select an option</option>
     <option value="decentralized">Truly Decentralized</option>
     <option value="secure">More secure</option>
     <option value="faster">Much faster</option>
@@ -61,9 +63,7 @@
   <br>
 
   <p>Any comments or suggestions?</p>
-  <textarea name="message" rows="12" cols="55">
-  Enter your comment here...
-  </textarea>
+  <textarea name="message" id="textbox" rows="8" cols="35" placeholder="Enter your comment here..."></textarea>
   <br>
   <input type="submit" id="submit" value="Submit">
   </form>
