@@ -15,13 +15,25 @@
 <p id="description">Thank you for taking the time to help us improve DigiByte community interaction</p>
 <div>
 <form id="survey-form">
+  <label id="name-label">
   <p>Name</p>
   <input type="text" id="name" placeholder="Enter your name" required></input>
+  </label>
+  <label id="email-label">
   <p>Email</p>
   <input type="email" id="email" placeholder="Enter your email" required></input>
-  <p>Age</p>
-  <input type="number" id="number" placeholder="Enter your age" required></input>
-
+  </label>
+  <label id="number-label">
+  <p>Age (optional)</p>
+  <input type="number" id="number" placeholder="Enter your age" min="12" max="120" required></input>
+  </label>
+  <p>Which option best describes your current role?</p>
+  <select id="dropdown">
+    <option value="developer">Developer</option>
+    <option value="marketeer">Marketeer</option>
+    <option value="outreach">Outreach</option>
+    <option value="speculator">Speculator</option>
+</select>
 </form>
 </body>
  
