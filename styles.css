@@ -6,3 +6,20 @@ body {
 h1 {
 	font-size: 60px;
 }
+
+#survey-form {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.row-tab {
+	display:block;
+}
+
+.label-form {
+	display:inline-block;
+}
+
+.input-form {
+	display:inline-block;
+}
