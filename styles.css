@@ -1,5 +1,5 @@
 body {
-  text-align: center;
+  text-align: left;
   font-family:sans-serif;
   background-image:linear-gradient(to bottom right, #33adff , #7300e6);
   color:white;
@@ -8,6 +8,11 @@ body {
 h1 {
   font-size: 25px;
   font-weight: 900;
+  text-align: center;
+}
+
+#description {
+  text-align: center;
 }
 
 #survey-form {
@@ -17,7 +22,6 @@ h1 {
   color: white;
   border-radius: 10px;
   font-size: 20px;
-  text-align: left;
 }
 
 #name {
@@ -31,24 +35,17 @@ h1 {
 }
 
 #number {
-  width: 500px;
+  width: 95%;
   padding: 10px;
 }
 
 #submit {
   display: block;
-  width: 532px;
+  width: 101%;
   padding: 0.75rem;
   color: black;
   background-color: #34eb4c;
   cursor: pointer;
-}
-
-body {
-  text-align: center;
-  font-family:sans-serif;
-  background-image:linear-gradient(to bottom right, #33adff , #7300e6);
-  color:white;
 }
 
 h1 {
@@ -64,26 +61,25 @@ h1 {
   color: white;
   border-radius: 10px;
   font-size: 20px;
-  text-align: left;
 }
 
 #name {
-  width: 500px;
+  width: 95%;
   padding: 10px;
 }
 
 #email {
-  width: 500px;
+  width: 95%;
   padding: 10px;
 }
 
 #dropdown {
-  width: 525px;
+  width: 100%;
   padding: 10px;
 }
 
 #textbox {
-  width: 525px;
+  width: 100%;
   resize: vertical;
   min-height: 120px;
 }
