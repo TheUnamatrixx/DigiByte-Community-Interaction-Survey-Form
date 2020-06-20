@@ -5,6 +5,11 @@ body {
   color:white;
 }
 
+h1 {
+  font-size: 25px;
+  font-weight: 900;
+}
+
 #survey-form {
   background-color:rgba(0,0,0,0.6);
   width: 600px;
@@ -12,8 +17,21 @@ body {
   margin: auto;
   color: white;
   border-radius: 10px;
+  font-size: 20px;
+  text-align: left;
+}
+
+#name {
+  width: 500px;
+  padding: 10px;
+}
+
+#email {
+  width: 500px;
+  padding: 10px;
 }
 
 #number {
-  width: 110px;
+  width: 500px;
+  padding: 10px;
 }
