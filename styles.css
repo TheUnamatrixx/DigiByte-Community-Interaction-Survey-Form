@@ -1,5 +1,17 @@
 body {
   text-align: center;
+  font-family:sans-serif;
+  background-image:linear-gradient(to bottom right, #33adff , #7300e6);
+  color:white;
+}
+
+#survey-form {
+  background-color:rgba(0,0,0,0.6);
+  width: 600px;
+  padding: 20px;
+  margin: auto;
+  color: white;
+  border-radius: 10px;
 }
 
 #number {
